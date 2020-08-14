@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Team Leverage</title>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  </head>
+  <body>
+    <div id="logo">
+      <img src="img/lvr.png" style="opacity: 0.4;" />
+    </div>
+    <div id="row">
+      <div class="col">
+        <label class="active" for="calculation">Binance Calculation</label>
+        <input
+          value=""
+          id="calculation"
+          type="text"
+          class=""
+          onchange="savecalValue()"
+        />
+      </div>
+      <div class="col">
+        <label class="active" for="size">크기</label>
+        <input placeholder="0" id="size" type="text" class="" />
+      </div>
+      <div class="col">
+        <label class="active" for="entPrice">진입 가격</label>
+        <input placeholder="0" id="entPrice" type="text" class="" />
+      </div>
+      <div class="col">
+        <label class="active" for="markPrice">시장 가격</label>
+        <input placeholder="0" id="markPrice" type="text" class="" />
+      </div>
+      <div class="col">
+        <label class="active" for="liqPrice">청산 가격</label>
+        <input placeholder="0" id="liqPrice" type="text" class="" />
+      </div>
+      <div class="col">
+        <label class="active" for="margRatio">증거금 비율</label>
+        <input placeholder="0" id="margRatio" type="text" class="" />
+      </div>
+      <div class="col">
+        <label class="active" for="marg">증거금</label>
+        <input placeholder="0" id="marg" type="text" class="" />
+      </div>
+      <div class="col">
+        <label class="active" for="ROE">PNL (ROE%)</label>
+        <input placeholder="0" id="ROE" type="text" class="" />
+      </div>
+      <div class="col">
+        <label class="active" for="lossROE">손/익절기준 ROE(%)</label>
+        <input
+          placeholder="0"
+          id="lossROE"
+          type="text"
+          class=""
+          onchange="cutCal();"
+        />
+      </div>
+      <div class="col">
+        <label class="active" for="lossPrice">손/익절가</label>
+        <input placeholder="0" id="lossPrice" type="text" class="" />
+      </div>
+      <!--<input
+        value="손절가 복사하기"
+        id="copyloss"
+        type="button"
+        class=""
+        style="cursor: pointer;"
+      /> -->
+      <button
+        id="copyloss"
+        onclick="clipBcopy();"
+        class=""
+        style="cursor: pointer;"
+      >
+        손/익절가 복사하기
+      </button>
+    </div>
+    <footer>
+      <p id="footers">Copyright © 2020 Team LVR All rights reserved</p>
+      <p id="footers">Web 0.1v</p>
+    </footer>
+  </body>
+</html>
