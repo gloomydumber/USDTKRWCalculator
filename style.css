@@ -63,6 +63,7 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: 0px;
+  pointer-events: none;
 }
 
 label {
