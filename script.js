@@ -65,7 +65,7 @@ $(document).ready(function () {
             e
               ? ((document.getElementById("USDT").value = a * e),
                 (document.getElementById("KRW").value = n * e))
-              : ((document.getElementById("BTC").value = ""),
+              : ((document.getElementById("USDT").value = ""),
                 (document.getElementById("KRW").value = ""));
           })());
       });
@@ -102,7 +102,7 @@ $(document).ready(function () {
               ? ((document.getElementById("BTC").value = (e / n).toFixed(8)),
                 (document.getElementById("USDT").value = (e / t).toFixed(2)))
               : ((document.getElementById("BTC").value = ""),
-                (document.getElementById("KRW").value = ""));
+                (document.getElementById("USDT").value = ""));
           })());
       });
     });
