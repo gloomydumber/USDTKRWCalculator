@@ -36,7 +36,7 @@ $(document).ready(function () {
       ),
       e.send(null);
   }
-  function r() {
+  function d() {
     var e = new XMLHttpRequest();
     e.addEventListener("readystatechange", function () {
       if (this.readyState === this.DONE) {
@@ -52,7 +52,7 @@ $(document).ready(function () {
       e.send(null);
   }
   o(),
-    r(),
+    d(),
     $(document).ready(function () {
       var t = $("#BTC").val();
       $("#BTC").on("propertychange change keyup paste", function () {
@@ -60,11 +60,13 @@ $(document).ready(function () {
         e != t &&
           ((t = e),
           (function () {
-            o(), r();
+            o(), d();
             var e = parseFloat(document.getElementById("BTC").value);
-            e &&
-              ((document.getElementById("USDT").value = a * e),
-              (document.getElementById("KRW").value = n * e));
+            e
+              ? ((document.getElementById("USDT").value = a * e),
+                (document.getElementById("KRW").value = n * e))
+              : ((document.getElementById("BTC").value = ""),
+                (document.getElementById("KRW").value = ""));
           })());
       });
     }),
@@ -75,12 +77,14 @@ $(document).ready(function () {
         e != t &&
           ((t = e),
           (function () {
-            o(), r();
+            o(), d();
             var e = parseFloat(document.getElementById("USDT").value),
               t = (n / a).toFixed(4);
-            countUSDT &&
-              ((document.getElementById("BTC").value = (e / a).toFixed(8)),
-              (document.getElementById("KRW").value = (e * t).toFixed(2)));
+            e
+              ? ((document.getElementById("BTC").value = (e / a).toFixed(8)),
+                (document.getElementById("KRW").value = (e * t).toFixed(2)))
+              : ((document.getElementById("BTC").value = ""),
+                (document.getElementById("KRW").value = ""));
           })());
       });
     }),
@@ -91,12 +95,14 @@ $(document).ready(function () {
         e != t &&
           ((t = e),
           (function () {
-            o(), r();
+            o(), d();
             var e = parseFloat(document.getElementById("KRW").value),
               t = (n / a).toFixed(4);
-            e &&
-              ((document.getElementById("BTC").value = (e / n).toFixed(8)),
-              (document.getElementById("USDT").value = (e / t).toFixed(2)));
+            e
+              ? ((document.getElementById("BTC").value = (e / n).toFixed(8)),
+                (document.getElementById("USDT").value = (e / t).toFixed(2)))
+              : ((document.getElementById("BTC").value = ""),
+                (document.getElementById("KRW").value = ""));
           })());
       });
     });
