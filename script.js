@@ -62,8 +62,9 @@ $(document).ready(function () {
           (function () {
             o(), r();
             var e = parseFloat(document.getElementById("BTC").value);
-            (document.getElementById("USDT").value = a * e),
-              (document.getElementById("KRW").value = n * e);
+            e &&
+              ((document.getElementById("USDT").value = a * e),
+              (document.getElementById("KRW").value = n * e));
           })());
       });
     }),
@@ -77,8 +78,9 @@ $(document).ready(function () {
             o(), r();
             var e = parseFloat(document.getElementById("USDT").value),
               t = (n / a).toFixed(4);
-            (document.getElementById("BTC").value = (e / a).toFixed(8)),
-              (document.getElementById("KRW").value = (e * t).toFixed(2));
+            countUSDT &&
+              ((document.getElementById("BTC").value = (e / a).toFixed(8)),
+              (document.getElementById("KRW").value = (e * t).toFixed(2)));
           })());
       });
     }),
@@ -92,8 +94,9 @@ $(document).ready(function () {
             o(), r();
             var e = parseFloat(document.getElementById("KRW").value),
               t = (n / a).toFixed(4);
-            (document.getElementById("BTC").value = (e / n).toFixed(8)),
-              (document.getElementById("USDT").value = (e / t).toFixed(2));
+            e &&
+              ((document.getElementById("BTC").value = (e / n).toFixed(8)),
+              (document.getElementById("USDT").value = (e / t).toFixed(2)));
           })());
       });
     });
