@@ -19,6 +19,11 @@ function clipBcopy() {
       document.execCommand("copy"),
       document.body.removeChild(e));
 }
+function inNumber() {
+  46 == event.keyCode ||
+    (47 < event.keyCode && event.keyCode < 58) ||
+    (event.returnValue = !1);
+}
 $(document).ready(function () {
   var n, a;
   function o() {
