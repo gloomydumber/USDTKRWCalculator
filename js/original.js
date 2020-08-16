@@ -41,6 +41,12 @@ function inNumber() {
 //     objTarget.value = null;
 //   }
 // }
+// function fn_press_han(obj)
+// {
+//   if(event.keyCode==8||event.keyCode==9||event.keyCode==37||event.keyCode==39||event.keyCode==46)
+//   return;
+//   obj.value = obj.value.replace(/[\ㄱ-ㅎㅏ-ㅣ가-힣]\g,'');
+// }
 
 $(document).ready(function () {
   var btckrw;
