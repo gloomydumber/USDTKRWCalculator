@@ -1,6 +1,6 @@
 # USDT-KRW-Calculator
 
-<p align="center"><img src="/img/foreignExchange.jpg"></p>
+<p align="center"><img src="/img/foreignExchange.jpg" width="50%" height="50%"></p>
 
 USDT / KRW Exchange Rate Calculator
 
