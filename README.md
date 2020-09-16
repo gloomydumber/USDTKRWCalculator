@@ -24,4 +24,4 @@ need Optimization (JS, CSS)
 
 ## Chrome Applicationize
 
-Chrome Application Version on USDTKRWCalculator2
+Chrome Application Version on USDTKRWCalculator2 (not available for now)
