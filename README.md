@@ -10,9 +10,13 @@ USDT / KRW Exchange Rate Calculator
 
 ![calculation](/img/binance.jpg)
 
+https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT
+
 ### BTC / KRW from Upbit
 
 ![calculation](/img/upbit.jpg)
+
+https://api.upbit.com/v1/candles/weeks?market=KRW-BTC&count=1&trade_price
 
 ## ver alpha
 
