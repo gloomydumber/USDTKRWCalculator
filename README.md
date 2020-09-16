@@ -20,7 +20,7 @@ https://api.upbit.com/v1/candles/weeks?market=KRW-BTC&count=1&trade_price
 
 ## Idea
 
-![altgallonline](/img/altgallonline.jpg)
+<p align="center"><img src="/img/altgallonline.jpg" width="50%" height="50%"></p>
 
 ## ver alpha
 
