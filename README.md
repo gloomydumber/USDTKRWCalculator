@@ -8,11 +8,11 @@ USDT / KRW Exchange Rate Calculator
 
 ### BTC / USDT from Binance
 
-<p align="center"><img src="/img/binance.jpg"></p>
+![calculation](/img/binance.jpg)
 
 ### BTC / KRW from Upbit
 
-<p align="center"><img src="/img/upbit.jpg"></p>
+![calculation](/img/upbit.jpg)
 
 ## ver alpha
 

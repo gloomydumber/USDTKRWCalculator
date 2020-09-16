@@ -11,7 +11,6 @@ function errsound() {
 }
 
 function clipBcopy() {
-  // 손절가를 클립보드에 복사해주는 함수
   var tempvalue = document.getElementById("BTC").value;
   if (tempvalue === "") {
     errsound();
