@@ -18,6 +18,10 @@ https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT
 
 https://api.upbit.com/v1/candles/weeks?market=KRW-BTC&count=1&trade_price
 
+## Idea
+
+![altgallonline](/img/altgallonline.jpg)
+
 ## ver alpha
 
 need Optimization (JS, CSS)
