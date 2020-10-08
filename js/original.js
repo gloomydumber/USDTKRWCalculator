@@ -146,9 +146,6 @@ $(document).ready(function () {
     var oldVal = $("#BTC").val();
     $("#BTC").on("propertychange change keyup paste click", function () {
       var currentVal = $(this).val();
-      if (currentVal == oldVal) {
-        return;
-      }
       oldVal = currentVal;
       exchangeBTC();
     });
@@ -159,9 +156,6 @@ $(document).ready(function () {
     var oldVal = $("#USDT").val();
     $("#USDT").on("propertychange change keyup paste click", function () {
       var currentVal = $(this).val();
-      if (currentVal == oldVal) {
-        return;
-      }
       oldVal = currentVal;
       exchangeUSDT();
     });
@@ -172,9 +166,6 @@ $(document).ready(function () {
     var oldVal = $("#KRW").val();
     $("#KRW").on("propertychange change keyup paste click", function () {
       var currentVal = $(this).val();
-      if (currentVal == oldVal) {
-        return;
-      }
       oldVal = currentVal;
       exchangeKRW();
     });
