@@ -134,7 +134,7 @@ $(document).ready(function () {
       document.getElementById("BTC").value = (CountKRW / btckrw).toFixed(8);
       document.getElementById("USDT").value = (
         CountKRW / oneUSDTperKRW
-      ).toFixed(2);
+      ).toFixed(4);
     } else {
       document.getElementById("BTC").value = "";
       document.getElementById("USDT").value = "";
