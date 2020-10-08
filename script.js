@@ -60,7 +60,7 @@ $(document).ready(function () {
     d(),
     $(document).ready(function () {
       var t = $("#BTC").val();
-      $("#BTC").on("propertychange change keyup paste", function () {
+      $("#BTC").on("propertychange change keyup paste click", function () {
         var e = $(this).val();
         e != t &&
           ((t = e),
@@ -77,7 +77,7 @@ $(document).ready(function () {
     }),
     $(document).ready(function () {
       var t = $("#USDT").val();
-      $("#USDT").on("propertychange change keyup paste", function () {
+      $("#USDT").on("propertychange change keyup paste click", function () {
         var e = $(this).val();
         e != t &&
           ((t = e),
@@ -95,7 +95,7 @@ $(document).ready(function () {
     }),
     $(document).ready(function () {
       var t = $("#KRW").val();
-      $("#KRW").on("propertychange change keyup paste", function () {
+      $("#KRW").on("propertychange change keyup paste click", function () {
         var e = $(this).val();
         e != t &&
           ((t = e),

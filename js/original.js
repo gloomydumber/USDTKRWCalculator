@@ -144,7 +144,7 @@ $(document).ready(function () {
   // 동기적으로 환율 계산 해주는 함수 (BTC)
   $(document).ready(function () {
     var oldVal = $("#BTC").val();
-    $("#BTC").on("propertychange change keyup paste", function () {
+    $("#BTC").on("propertychange change keyup paste click", function () {
       var currentVal = $(this).val();
       if (currentVal == oldVal) {
         return;
@@ -157,7 +157,7 @@ $(document).ready(function () {
   // 동기적으로 환율 계산 해주는 함수 (USDT)
   $(document).ready(function () {
     var oldVal = $("#USDT").val();
-    $("#USDT").on("propertychange change keyup paste", function () {
+    $("#USDT").on("propertychange change keyup paste click", function () {
       var currentVal = $(this).val();
       if (currentVal == oldVal) {
         return;
@@ -170,7 +170,7 @@ $(document).ready(function () {
   // 동기적으로 환율 계산 해주는 함수 (KRW)
   $(document).ready(function () {
     var oldVal = $("#KRW").val();
-    $("#KRW").on("propertychange change keyup paste", function () {
+    $("#KRW").on("propertychange change keyup paste click", function () {
       var currentVal = $(this).val();
       if (currentVal == oldVal) {
         return;
