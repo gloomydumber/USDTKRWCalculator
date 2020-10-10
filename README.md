@@ -22,6 +22,8 @@ https://api.upbit.com/v1/candles/weeks?market=KRW-BTC&count=1&trade_price
 
 <p align="center"><img src="/img/altgallonline.jpg" width="50%" height="50%"></p>
 
+<p align="center"><img src="/img/idea2.jpg" width="50%" height="50%"></p>
+
 ## ver alpha
 
 need Optimization (JS, CSS)
