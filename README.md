@@ -36,7 +36,7 @@ need Optimization (JS, CSS)
 
 Chrome Application Version on USDTKRWCalculator2
 
-## Voice Recognization
+## Voice Recognition
 
 http://www.codejs.co.kr/%EC%9D%8C%EC%84%B1-%EC%9D%B8%EC%8B%9D-api-speech-recognition-api/
 
