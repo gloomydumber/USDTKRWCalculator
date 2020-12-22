@@ -34,4 +34,16 @@ need Optimization (JS, CSS)
 
 ## Chrome Applicationize
 
-Chrome Application Version on USDTKRWCalculator2 (not available for now)
+Chrome Application Version on USDTKRWCalculator2
+
+## Voice Recognization
+
+http://www.codejs.co.kr/%EC%9D%8C%EC%84%B1-%EC%9D%B8%EC%8B%9D-api-speech-recognition-api/
+
+https://github.com/dodortus/webrtc-lab/blob/master/frontend/views/examples/speech-recognition/js/main.js
+
+https://webrtclab.herokuapp.com/speech-recognition/
+
+https://www.google.com/intl/en/chrome/demos/speech.html
+
+(not available for now)
